@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.internal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        <activity
+            android:name="com.example.internal.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.internal.InternalStore"
+            android:label="@string/title_activity_internal_store" >
+        </activity>
+        <activity
+            android:name="com.example.internal.Reading"
+            android:label="@string/title_activity_reading" >
+        </activity>
+        <activity
+            android:name="com.example.internal.Email"
+            android:label="@string/title_activity_email" >
+        </activity>
+        <activity
+            android:name="com.example.internal.Recipes"
+            android:label="@string/title_activity_recipes" >
+        </activity>
+        <activity
+            android:name="com.example.internal.Spicy"
+            android:label="@string/title_activity_spicy" >
+        </activity>
+        <activity
+            android:name="com.example.internal.Popular"
+            android:label="@string/title_activity_popular" >
+        </activity>
+        <activity
+            android:name="com.example.internal.Desserts"
+            android:label="@string/title_activity_desserts" >
+        </activity>
+        <activity
+            android:name="com.example.internal.SQLite"
+            android:label="@string/title_activity_sqlite_example" >
+        </activity>
+        <activity
+            android:name="com.example.internal.SQLView"
+            android:label="@string/title_activity_sqlview" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cook</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="internal">Internal Storage</string>
+    <string name="read">Read saved recipes</string>
+    <string name="title_activity_internal_store">InternalStore</string>
+    <string name="enter">Name of your list/recipe</string>
+    <string name="save">Save your recipes</string>
+    <string name="write">Write here</string>
+    <string name="title_activity_reading">Reading</string>
+    <string name="recipe">Recipes</string>
+    <string name="check">Check groceries</string>
+    <string name="title_activity_email">Email</string>
+    <string name="send">send</string>
+    <string name="email">Email Address</string>
+    <string name="mailBody">Your recipe</string>
+    <string name="title_activity_recipes">Recipes</string>
+    <string name="spice">Spicy Dishes</string>
+    <string name="pop">Popular Dishes</string>
+    <string name="des">Desserts</string>
+    <string name="title_activity_spicy">Spicy</string>
+    <string name="title_activity_popular">Popular</string>
+    <string name="title_activity_desserts">Desserts</string>
+    <string name="title_activity_sqlite_example">SQLiteExample</string>
+    <string name="title_activity_sqlview">SQLView</string>
+
+</resources>
